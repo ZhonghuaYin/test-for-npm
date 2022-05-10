@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhonghuaYin/test-for-npm.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@zhonghuayin"
   }
