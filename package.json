@@ -16,7 +16,7 @@
     "url": "git+https://github.com/ZhonghuaYin/test-for-npm.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@zhonghuayin"
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "mocha": "^10.0.0",
