@@ -1,6 +1,5 @@
-const getURL = () => {
+const getURL = (env) => {
   let url = null;
-  const env = process.env.ENV;
   switch (env) {
     case "pro":
       url = "pro";
@@ -17,8 +16,8 @@ const getURL = () => {
   return url;
 };
 
-const func = () => {
-  return getURL();
+const func = (env) => {
+  return getURL(env);
 };
 
-module.exports = func();
+module.exports = func(env);
