@@ -1,6 +1,6 @@
 {
   "name": "@zhonghuayin/test-for-npm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "for test",
   "main": "./src/index.js",
   "scripts": {
