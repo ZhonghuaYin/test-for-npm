@@ -1,12 +1,24 @@
-const getEnv = () => {
-  return process.env;
+const getURL = () => {
+  let url = null;
+  const env = process.env.ENV;
+  switch (env) {
+    case "pro":
+      url = "pro";
+      break;
+    case "dev":
+      url = "test";
+      break;
+    case "qa":
+      url = "stage";
+      break;
+    default:
+      break;
+  }
+  return url;
 };
 
 const func = () => {
-  console.log(getEnv())
-  return getEnv();
+  return getURL();
 };
 
-
 module.exports = func();
-
