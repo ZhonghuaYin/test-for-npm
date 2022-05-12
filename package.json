@@ -1,8 +1,7 @@
 {
   "name": "@zhonghuayin/test-for-npm",
   "version": "1.0.1",
-  "type": "module",
-  "description": "",
+  "description": "for test",
   "main": "./src/index.js",
   "scripts": {
     "test": "mocha ./src/index.ts --reporter mocha-junit-reporter --timeout 60000 --exit",
@@ -23,8 +22,6 @@
     "mocha-junit-reporter": "^2.0.2"
   },
   "dependencies": {
-    "@types/dotenv": "^8.2.0",
-    "dotenv": "^16.0.0",
-    "typescript": "^4.6.4"
+    "dotenv": "^16.0.0"
   }
 }

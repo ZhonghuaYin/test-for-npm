@@ -1,12 +1,12 @@
-import env from "dotenv";
-env.config();
-
 const getEnv = () => {
   return process.env;
 };
 
 const func = () => {
+  console.log(getEnv())
   return getEnv();
 };
 
-export default func;
+
+module.exports = func();
+
