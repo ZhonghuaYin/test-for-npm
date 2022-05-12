@@ -20,4 +20,4 @@ const func = (env) => {
   return getURL(env);
 };
 
-module.exports = func(env);
+module.exports = func;
